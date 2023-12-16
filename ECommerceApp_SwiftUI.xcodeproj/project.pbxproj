@@ -16,6 +16,11 @@
 		E6F1A8ED2B2DF52100B3C1C3 /* ECommerceApp_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1A8EC2B2DF52100B3C1C3 /* ECommerceApp_SwiftUITests.swift */; };
 		E6F1A8F72B2DF52100B3C1C3 /* ECommerceApp_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1A8F62B2DF52100B3C1C3 /* ECommerceApp_SwiftUIUITests.swift */; };
 		E6F1A8F92B2DF52100B3C1C3 /* ECommerceApp_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1A8F82B2DF52100B3C1C3 /* ECommerceApp_SwiftUIUITestsLaunchTests.swift */; };
+		E6F1A9072B2DF7CA00B3C1C3 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1A9062B2DF7CA00B3C1C3 /* PageModel.swift */; };
+		E6F1A9092B2DF81400B3C1C3 /* PulsatingCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1A9082B2DF81400B3C1C3 /* PulsatingCirclesView.swift */; };
+		E6F1A90B2B2DF88300B3C1C3 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1A90A2B2DF88300B3C1C3 /* LandingView.swift */; };
+		E6F1A90D2B2DF8A800B3C1C3 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1A90C2B2DF8A800B3C1C3 /* LandingPage.swift */; };
+		E6F1A9102B2DF92000B3C1C3 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1A90F2B2DF92000B3C1C3 /* CustomButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		E6F1A8F22B2DF52100B3C1C3 /* ECommerceApp_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECommerceApp_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F1A8F62B2DF52100B3C1C3 /* ECommerceApp_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerceApp_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		E6F1A8F82B2DF52100B3C1C3 /* ECommerceApp_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerceApp_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6F1A9062B2DF7CA00B3C1C3 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		E6F1A9082B2DF81400B3C1C3 /* PulsatingCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingCirclesView.swift; sourceTree = "<group>"; };
+		E6F1A90A2B2DF88300B3C1C3 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		E6F1A90C2B2DF8A800B3C1C3 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		E6F1A90F2B2DF92000B3C1C3 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				E6F1A8D62B2DF51E00B3C1C3 /* ECommerceApp_SwiftUIApp.swift */,
+				E6F1A90E2B2DF8C800B3C1C3 /* CustomViews */,
 				E6F1A8D82B2DF51E00B3C1C3 /* ContentView.swift */,
+				E6F1A9052B2DF79D00B3C1C3 /* LandingPage */,
 				E6F1A8DA2B2DF52100B3C1C3 /* Assets.xcassets */,
 				E6F1A8DF2B2DF52100B3C1C3 /* Persistence.swift */,
 				E6F1A8E12B2DF52100B3C1C3 /* ECommerceApp_SwiftUI.xcdatamodeld */,
@@ -131,6 +143,25 @@
 				E6F1A8F82B2DF52100B3C1C3 /* ECommerceApp_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = ECommerceApp_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		E6F1A9052B2DF79D00B3C1C3 /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+				E6F1A9062B2DF7CA00B3C1C3 /* PageModel.swift */,
+				E6F1A9082B2DF81400B3C1C3 /* PulsatingCirclesView.swift */,
+				E6F1A90A2B2DF88300B3C1C3 /* LandingView.swift */,
+				E6F1A90C2B2DF8A800B3C1C3 /* LandingPage.swift */,
+			);
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+		E6F1A90E2B2DF8C800B3C1C3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E6F1A90F2B2DF92000B3C1C3 /* CustomButtons.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F1A9092B2DF81400B3C1C3 /* PulsatingCirclesView.swift in Sources */,
 				E6F1A8E32B2DF52100B3C1C3 /* ECommerceApp_SwiftUI.xcdatamodeld in Sources */,
+				E6F1A90B2B2DF88300B3C1C3 /* LandingView.swift in Sources */,
+				E6F1A9072B2DF7CA00B3C1C3 /* PageModel.swift in Sources */,
 				E6F1A8E02B2DF52100B3C1C3 /* Persistence.swift in Sources */,
 				E6F1A8D92B2DF51E00B3C1C3 /* ContentView.swift in Sources */,
+				E6F1A90D2B2DF8A800B3C1C3 /* LandingPage.swift in Sources */,
+				E6F1A9102B2DF92000B3C1C3 /* CustomButtons.swift in Sources */,
 				E6F1A8D72B2DF51E00B3C1C3 /* ECommerceApp_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
